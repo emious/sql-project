@@ -11,7 +11,3 @@ class sql_manager:
     mycursor = mydb.cursor()
     mycursor.execute("SHOW TABLES")
 
-    for tb in mycursor:
-        print(tb)
-
-
